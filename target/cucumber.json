@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Verify user can see audio deals",
+        "description": "",
+        "id": ";verify-user-can-see-audio-deals",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3733319700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "open dell application",
+            "match": {
+              "location": "StepClass.open_dell_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2171571000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "mouse hover on deals",
+            "match": {
+              "location": "StepClass.mouse_hover_on_deals()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2183118200,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "click Computer Accessories deals",
+            "match": {
+              "location": "StepClass.click_Computer_Accessories_deals()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6014110500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "click on audio deals",
+            "match": {
+              "location": "StepClass.click_on_audio_deals()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5563122000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Verify user can see audio deals",
+            "match": {
+              "location": "StepClass.verify_user_can_see_audio_deals()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 23,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "mouseHover.feature"
+  }
+]
